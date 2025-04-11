@@ -1,54 +1,149 @@
 *{
-
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', serif ;
 }
 
+
+
+
+
+
+
 .navbar {
-    
     height: 10vh;
 }
 
-#banner {
+#banner{
     height: 90vh;
+
 }
 
 #banner .ngee{
-    background: url('/1.png');
+    background: url(123.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: n0-repeat;
     height: 90vh;
-}
-#banner .meow {
-    padding: 100px;
+    
 }
 
-.btn-primary {
-    background-color: black;
-    border: black;
+#banner .meow {
+    padding: 100px
+
+}
+
+.btn-primary{
+    background-color:#92095b!important;
+    border: #92095b;
     border-radius: 0;
     padding: 12px 34px;
     font-size: 20px;
 }
+
+
+
 #banner h6 {
-text-transform: uppercase;
-color: black;
+    text-transform: uppercase;
+    color:#b75790;
 }
 
-#banner h1 #services h2 {
-    font-size: 68px ;
-
+#banner h1 {
+    font-size: 68px;
+   
 }
 
 #about {
-    padding: 100px;
-    background-color: gray;
+    padding:100px;
+    background-color:#b75790;
+    
 }
 
 #services {
-    padding: 100px;
+    padding: 100px
 
 }
 
-.card-image-top{
-    border: 2px solid black;
+.card {
+    border: none;
+
+}
+
+.card-img-top {
+    border: 2px solid #DD8365;
+}
+
+.testimonials{
+    border: 3px solid #41482B;
+    padding: 30px;
+    margin-top: 20px;
+
+}
+
+.testimonials img {
+    border-radius: 50%; 
+    width : 75px;
+
+}
+
+#reviews {
+    background-color: #fafafa;
+    padding: 100px 0;
+}
+
+#reviews h2 {
+    font-size: 68px;
+}
+
+.faq-section {
+    max-width: 800px;
+    margin: auto;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius:  0 !important;
+
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    
+}
+
+.accordion-body {
+    border-left: 3px solid rgb(123, 57, 149);
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(123, 57, 149);
+    color: #FFF;
+}
+.accordion-button:hover {
+    background-color: rgb(120, 57, 149) ;
+    color: #FFF;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #41482B;
+} 
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color: #DDB365 ;
 }
